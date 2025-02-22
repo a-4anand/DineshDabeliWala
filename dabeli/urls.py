@@ -16,19 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from dabeli import views
-
-
+from . import views
+from custom_admin.views import owner_login  # Import owner_login from custom_admin.views
 
 urlpatterns = [
     path("", views.index, name="Home"),
     path("contact/", views.contact_form, name="contact"),
     path("about/", views.about, name="about"),
-    path("menu/", views.menu, name="menu")
-
+    path("menu/", views.menu, name="menu"),
+    path("login/", owner_login, name="owner_login"),  # Use the correct import
 ]
-
-
 
 
 

@@ -23,7 +23,10 @@ def contact_form(request):
         name = request.POST.get('name')
         phone = request.POST.get('phone')
         message = request.POST.get('message')
-        contact = Contact(name=name, phone=phone, message=message)
+        category=request.POST.get('category')
+        
+        contact = Contact(name=name, phone=phone, message=message ,category=category,)
+        
         contact.save()
         messages.success(request, "Your message has been sent!")
     return render(request, 'contact.html')

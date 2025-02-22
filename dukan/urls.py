@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 
+from custom_admin import views
 
 #django admin header customization
 admin.site.site_header = 'Dinesh Dabeli Owner | Login'
@@ -25,9 +26,12 @@ admin.site.index_title = 'Welcome to Dinesh Dabeli'
 
  #urlspatterns
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    
+    path('custom-admin/', include('custom_admin.urls')),
+    path('admin/', admin.site.urls),  # Default Django admin (if needed
     path("",include('dabeli.urls')),
-    path("dashboard/",include('custom_admin.urls'))
+    path("dashboard/",include('custom_admin.urls')),
+    
 ]
 
 
