@@ -8,7 +8,7 @@ SECRET_KEY = "django-insecure--&()dt)+zdqa$sc+un^admluii%2_2bsynrz1382wjq1wh5b=d
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['dineshdabeliwala.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     "dabeli.apps.DabeliConfig",
