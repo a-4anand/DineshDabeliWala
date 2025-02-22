@@ -30,7 +30,6 @@ urlpatterns = [
     path("dashboard/",include('custom_admin.urls'))
 ]
 
-# yourprojectname/urls.py
 
 
 
