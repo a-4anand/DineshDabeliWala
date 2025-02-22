@@ -30,6 +30,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    'django.middleware.csrf.CsrfViewMiddleware',
 ]
 
 ROOT_URLCONF = "dukan.urls"
@@ -70,6 +71,9 @@ AUTH_PASSWORD_VALIDATORS = [
 CSRF_TRUSTED_ORIGINS = [
     "https://dineshdabeli.up.railway.app/",
     "dineshdabeli.great-site.net",
+    'https://dineshdabeliwala.onrender.com',
+    'https://dineshdabeli.up.railway.app',
+    'https://www.dineshdabeli.up.railway.app',
     
 ]
 
@@ -86,4 +90,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CSRF_TRUSTED_ORIGINS = ['https://dineshdabeliwala.onrender.com']

@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 from django.db.models.functions import TruncDate
 from django.db.models import Count
 from dabeli.models import Contact
+from django.views.decorators.csrf import csrf_exempt
 import json
 
 # Check if the user is a superuser
@@ -32,6 +33,8 @@ def owner_logout(request):
 # Dashboard View (Restricted to superusers)
 @login_required
 
+
+@csrf_exempt
 def dashboard_view(request):
     try:
         # Fetch last 10 messages with all details
