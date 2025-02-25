@@ -667,10 +667,9 @@ a:focus {
   background-color: #e69c00;
 }
 
-.about_section {
-  background: #222831;
-  color: #ffffff;
-}
+/* .about_section {
+
+} */
 
 .about_section .row {
   -webkit-box-align: center;
