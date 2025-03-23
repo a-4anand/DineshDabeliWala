@@ -8,7 +8,12 @@ SECRET_KEY = "django-insecure--&()dt)+zdqa$sc+un^admluii%2_2bsynrz1382wjq1wh5b=d
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [    "https://dineshdabeli.up.railway.app/",
+    "https://dineshdabeli.great-site.net",
+    'https://dineshdabeliwala.onrender.com',
+    'https://dineshdabeli.up.railway.app',
+    'https://dineshdabeli-production.up.railway.app/',
+                     ]
 
 INSTALLED_APPS = [
     "dabeli.apps.DabeliConfig",
@@ -73,7 +78,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://dineshdabeli.great-site.net",
     'https://dineshdabeliwala.onrender.com',
     'https://dineshdabeli.up.railway.app',
-    'https://www.dineshdabeli.up.railway.app',
+    'https://dineshdabeli-production.up.railway.app/',
     
 ]
 
@@ -87,6 +92,7 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "dabeli", "static")]
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
