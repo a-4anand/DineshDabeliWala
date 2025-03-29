@@ -8,15 +8,7 @@ SECRET_KEY = "django-insecure--&()dt)+zdqa$sc+un^admluii%2_2bsynrz1382wjq1wh5b=d
 
 DEBUG = True
 
-ALLOWED_HOSTS = [    "https://dineshdabeli.up.railway.app/",
-    "https://dineshdabeli.great-site.net",
-    'https://dineshdabeliwala.onrender.com',
-    'https://dineshdabeli.up.railway.app/',
-    'https://dineshdabeli-production.up.railway.app/',
-                     '127.0.0.1',
-                     'https://dineshdabeli.azurewebsites.net/',
-                     'https://dineshdabeli.com/'
-                     ]
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     "dabeli.apps.DabeliConfig",
