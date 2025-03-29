@@ -1131,9 +1131,7 @@ Building upon our success, we proudly inaugurated our third branch in a new loca
           </div>
         </div>
         <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
+           <div id="map" style="height: 400px; width: 100%;"></div>
         </div>
       </div>
     </div>
@@ -1341,6 +1339,8 @@ Building upon our success, we proudly inaugurated our third branch in a new loca
   <!-- footer section -->
 
   <!-- jQery -->
+
+
   <script src="../static/js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
   <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
@@ -1357,7 +1357,43 @@ Building upon our success, we proudly inaugurated our third branch in a new loca
   <!-- custom js -->
   <script src="../static/js/custom.js"></script>
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap&center=bhimrad,Surat,Gujarat,India" async defer></script>
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfGghG6s5RryLKadxTEij5G1g39kib_pA&callback=myMap" async defer></script>
+ <script>
+    function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(21.134483, 72.800418), // Surat Coordinates
+            zoom: 14
+        };
+
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        var directionsService = new google.maps.DirectionsService();
+        var directionsRenderer = new google.maps.DirectionsRenderer();
+        directionsRenderer.setMap(map);
+
+        // Define source and destination
+        var source = "Surat, Gujarat, India"; // Starting location
+        var destination = "Dinesh Dabeli, Bhimrad, Surat, Gujarat, India"; // Target location
+
+        // Create request for directions
+        var request = {
+            origin: source,
+            destination: destination,
+            travelMode: google.maps.TravelMode.DRIVING
+        };
+
+        // Get directions and display on the map
+        directionsService.route(request, function(result, status) {
+            if (status == google.maps.DirectionsStatus.OK) {
+                directionsRenderer.setDirections(result);
+            } else {
+                alert("Could not display directions: " + status);
+            }
+        });
+    }
+</script>
 
   <!-- End Google Map -->
 
