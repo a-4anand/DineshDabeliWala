@@ -1,1 +1,1 @@
-web: gunicorn dukan.wsgi
+web: gunicorn dukan.wsgi --log-file -
