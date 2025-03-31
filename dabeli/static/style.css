@@ -2,7 +2,7 @@
 
 
 body {
-  background-color: darkslategray;
+  background-color: darkslategray; !important;
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
   overflow-x: hidden;
