@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31752eca-4488-4d14-8c41-0bdf4dca6f7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dabeli/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dabeli/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="31752eca-4488-4d14-8c41-0bdf4dca6f7d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
       <workItem from="1743270052899" duration="23287000" />
       <workItem from="1743918257940" duration="896000" />
       <workItem from="1743928147648" duration="109000" />
-      <workItem from="1743966092156" duration="3398000" />
+      <workItem from="1743966092156" duration="4140000" />
     </task>
     <servers />
   </component>
