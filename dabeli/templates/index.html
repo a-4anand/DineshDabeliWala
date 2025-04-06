@@ -29,11 +29,95 @@
   <!-- font awesome style -->
   <link href="../static/font-awesome.min.css" rel="stylesheet" />
 <style>
-body {
-    background-color: #2f4f4f;
+/* ✅ Unique Dablie Styles - Mobile Friendly */
+.dablie-popup-container {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 10px;
 }
 
+.dablie-popup-box {
+  background: #1f1f1e;
+  border-radius: 20px;
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  animation: dabliePopupFade 0.4s ease-in-out;
+  width: 100%;
+  max-width: 340px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.dablie-popup-box h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #faf7f7;
+}
+
+.dablie-popup-box p {
+  font-size: 15px;
+  margin: 10px 0 20px;
+  color: #c9bd94;
+}
+
+.dablie-burger-img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.dablie-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dablie-popup-box button {
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e78d25;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dablie-popup-box button:hover {
+  background-color: #d56d17;
+}
+
+.dablie-skip-btn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+@keyframes dabliePopupFade {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* 📱 Responsive Tweaks */
+@media (max-width: 400px) {
+  .dablie-popup-box h3 {
+    font-size: 18px;
+  }
+  .dablie-popup-box p {
+    font-size: 14px;
+  }
+  .dablie-popup-box button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
 </style>
+
   <!-- Custom styles for this template -->
 <link href="../static/style.css" rel="stylesheet" >
   <!-- responsive style -->
@@ -179,7 +263,17 @@ body {
   </div>
 
   <!-- offer section -->
-
+<div id="dablie-popup-container" class="dablie-popup-container">
+  <div class="dablie-popup-box">
+    <img src="../static/images/shoplogo.png" alt="Cute Burger" class="dablie-burger-img">
+    <h3>Hey Suratis 🍔</h3>
+    <p>Enjoyed your Snacks? We’d love a quick rating!</p>
+    <div class="dablie-btn-group">
+      <button onclick="dablieRedirectToRating()">🍔 Rate Us</button>
+      <button class="dablie-skip-btn" onclick="dablieClosePopup()">Maybe later</button>
+    </div>
+  </div>
+</div>
   <section class="offer_section layout_padding-bottom">
     <div class="offer_container">
       <div class="container ">
@@ -1374,7 +1468,26 @@ Building upon our success, we proudly inaugurated our third branch in a new loca
   <!-- Google Map -->
 
   <!-- End Google Map -->
+<script>
+// 🎯 Dablie Popup Logic - Safe & Scoped
+(function() {
+  window.addEventListener('load', function() {
+    setTimeout(() => {
+      const popup = document.getElementById("dablie-popup-container");
+      if (popup) popup.style.display = "flex";
+    }, 3000); // Show after 3 sec
+  });
 
+  window.dablieClosePopup = function() {
+    const popup = document.getElementById("dablie-popup-container");
+    if (popup) popup.style.display = "none";
+  };
+
+  window.dablieRedirectToRating = function() {
+    window.location.href = "/rate_us"; // Replace with your actual page
+  };
+})();
+</script>
 </body>
 
 </html>
