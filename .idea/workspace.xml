@@ -7,12 +7,49 @@
     <list default="true" id="31752eca-4488-4d14-8c41-0bdf4dca6f7d" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/dabeli/static/images/kid3.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dabeli/static/images/kid4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/kid3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/kid4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dabeli/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dabeli/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dabeli/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dabeli/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dabeli/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dabeli/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dabeli/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dabeli/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admincss.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/admincss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (10).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (10).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (11).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (11).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (12).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (12).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (13).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (13).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (14).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (14).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (15).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (15).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (16).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (16).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (17).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (17).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (18).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (18).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (19).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (19).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (2).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (2).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (20).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (20).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (3).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (4).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (4).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (5).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (5).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (6).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (6).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (7).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (7).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (8).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (8).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (9).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47 (9).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.28.47.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.29.06.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/WhatsApp Image 2024-01-04 at 00.29.06.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/dimage/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/dimage/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/about-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/about-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/hero-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/hero-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/shoplogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/shoplogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +113,7 @@
       <workItem from="1743186916157" duration="2906000" />
       <workItem from="1743191897143" duration="23000" />
       <workItem from="1743228163129" duration="4701000" />
-      <workItem from="1743270052899" duration="21606000" />
+      <workItem from="1743270052899" duration="23287000" />
     </task>
     <servers />
   </component>
